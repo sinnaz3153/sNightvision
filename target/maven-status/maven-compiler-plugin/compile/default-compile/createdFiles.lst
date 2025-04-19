@@ -1,0 +1,4 @@
+org\sinnaz3153\nightvision\Nightvision.class
+org\sinnaz3153\nightvision\CommandHandler.class
+org\sinnaz3153\nightvision\ConfigManager.class
+org\sinnaz3153\nightvision\NightvisionTabCompleter.class

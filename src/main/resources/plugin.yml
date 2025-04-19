@@ -1,0 +1,30 @@
+# src/main/resources/plugin.yml
+name: sNightVision
+version: '1.21.5-3.2'
+main: org.sinnaz3153.nightvision.Nightvision
+api-version: '1.21'
+author: sinnaz3153
+website: 'https://github.com/sinnaz3153/Nightvision'
+
+commands:
+  nightvision:
+    description: "Toggle nightvision effect"
+    usage: "/<command> [player]"
+    permission: "nightvision.use"
+    aliases: [nv]
+  nightvisionadmin:
+    description: "Admin commands for nightvision"
+    usage: "/<command> reload"
+    permission: "nightvision.admin"
+    aliases: [nvadmin]
+
+permissions:
+  snightvision.use:
+    description: Allows using the nightvision command
+    default: op
+  snightvision.use.other:
+    description: Allows toggling nightvision for other players
+    default: op
+  snightvision.admin:
+    description: Allows using admin commands
+    default: op
