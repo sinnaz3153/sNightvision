@@ -1,10 +1,10 @@
 # sNightvision Plugin
 ![title](https://cdn.modrinth.com/data/cached_images/6a373af47ec72460c309748e60028734cedd2d7a.png)
 
-A simple yet powerful night vision plugin for Paper servers.
+A simple night vision plugin for Paper servers.
 
-**Last Version:** 1.21.5-3.2  
-**Author:** sinnaz3153  
+**Last Version:** 1.21.8-3.3
+**Author:** sinnaz3153
 **API Version:** 1.21
 **Java:** 21+
 
