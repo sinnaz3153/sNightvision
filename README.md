@@ -29,7 +29,7 @@ This plugin allows players to toggle night vision effect for themselves and othe
 - `/nvadmin help` - Show admin help menu
 
 ## Permissions
-- `nightvision.use` - Use night vision command (default: op)
+- `nightvision.use` - Use night vision command (default: Everyone)
 - `nightvision.use.other` - Toggle night vision for others (default: op)
 - `nightvision.admin` - Access admin commands (default: op)
 
