@@ -1,9 +1,9 @@
 # src/main/resources/plugin.yml
 name: sNightVision
-version: '1.21.9-3.4'
+version: '${project.version}'
 main: org.sinnaz3153.nightvision.Nightvision
-api-version: '1.21'
-author: sinnaz3153
+api-version: '1.21.9'
+author: "sinnaz3153"
 website: 'https://github.com/sinnaz3153/sNightvision'
 
 commands:
@@ -21,7 +21,7 @@ commands:
 permissions:
   snightvision.use:
     description: Allows using the nightvision command
-    default: true
+    default: op
   snightvision.use.other:
     description: Allows toggling nightvision for other players
     default: op

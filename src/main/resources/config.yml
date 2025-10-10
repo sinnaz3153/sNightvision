@@ -1,8 +1,11 @@
-config-version: "1.3"
+config-version: "1.4.1" # DO NOT CHANGE THIS VALUE. UNLESS YOU KNOW WHAT YOU ARE DOING. It is used to check if the config needs to be updated.
+
+# General Config Section
 prefix: "&#62b5easNightVision&7 >>&f "
 effect:
   duration: -1  # -1 for infinite, or time in seconds
 
+# Message Section
 messages:
   plugin-enabled: "&aplugin has been enabled!"
   plugin-disabled: "&cplugin has been disabled!"
@@ -13,6 +16,8 @@ messages:
   player-not-found: "&cPlayer not found!"
   nightvision-enabled-other: "&bNightvision has been enabled for &f%player%&a!"
   nightvision-disabled-other: "&cNightvision has been disabled for &f%player%&c!"
+
+# Help Section
   help:
     header: "&8====== &#62b5eaNightVision Help &8======"
     nightvision: "&b/nightvision &8- &7Toggle nightvision for yourself &8(&bnightvision.use&8)"

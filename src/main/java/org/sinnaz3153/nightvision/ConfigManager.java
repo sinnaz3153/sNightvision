@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ConfigManager {
     private final JavaPlugin plugin;
-    private final String currentVersion = getConfig().getString("config-version");
+    private final String currentVersion = "1.4.1"; // Update this as needed
     private FileConfiguration config;
     private File configFile;
 

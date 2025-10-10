@@ -35,7 +35,7 @@ This plugin allows players to toggle night vision effect for themselves and othe
 
 ## Configuration
 ```yaml
-config-version: "1.2"
+config-version: "1.3"
 prefix: "&#62b5eaNightVision&7 >>&f "
 effect:
   duration: -1  # -1 for infinite, or time in seconds

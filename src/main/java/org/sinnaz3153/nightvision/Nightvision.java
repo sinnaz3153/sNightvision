@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-// src/main/java/org/sinnaz3153/nightvision/Nightvision.java
 public final class Nightvision extends JavaPlugin {
     private String prefix;
     private int duration;
@@ -84,8 +83,8 @@ public final class Nightvision extends JavaPlugin {
     }
 
     private void loadConfig() {
-        prefix = getConfig().getString("prefix", "&#85f8f2NV&7 >>&f ");
-        duration = getConfig().getInt("effect.duration", -1);
+        prefix = getConfig().getString("prefix", "&c*MISSING-PREFIX* >>&f ");
+        duration = getConfig().getInt("effect.duration", 300);
         if (duration > 0) {
             duration = duration * 20;
         } else {
