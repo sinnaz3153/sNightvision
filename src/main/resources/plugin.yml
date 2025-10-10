@@ -10,18 +10,17 @@ commands:
   nightvision:
     description: "Toggle nightvision effect"
     usage: "/<command> [player]"
-    permission: "nightvision.use"
-    aliases: [nv]
+    aliases: [nv, snv, snightvision]
   nightvisionadmin:
     description: "Admin commands for nightvision"
     usage: "/<command> reload"
     permission: "nightvision.admin"
-    aliases: [nvadmin]
+    aliases: [nvadmin, snvadmin, snightvisionadmin]
 
 permissions:
   snightvision.use:
     description: Allows using the nightvision command
-    default: op
+    default: true
   snightvision.use.other:
     description: Allows toggling nightvision for other players
     default: op

@@ -3,7 +3,7 @@
 
 A simple night vision plugin for Paper servers.
 
-**Last Version:** 1.21.8-3.3
+**Last Version:** 1.21.9-3.5.1
 **Author:** sinnaz3153
 **API Version:** 1.21
 **Java:** 21+
@@ -35,11 +35,14 @@ This plugin allows players to toggle night vision effect for themselves and othe
 
 ## Configuration
 ```yaml
-config-version: "1.3"
-prefix: "&#62b5eaNightVision&7 >>&f "
+config-version: "1.4.1" # DO NOT CHANGE THIS VALUE. UNLESS YOU KNOW WHAT YOU ARE DOING. It is used to check if the config needs to be updated.
+
+# General Config Section
+prefix: "&#62b5easNightVision&7 >>&f "
 effect:
   duration: -1  # -1 for infinite, or time in seconds
 
+# Message Section
 messages:
   plugin-enabled: "&aplugin has been enabled!"
   plugin-disabled: "&cplugin has been disabled!"
@@ -50,10 +53,12 @@ messages:
   player-not-found: "&cPlayer not found!"
   nightvision-enabled-other: "&bNightvision has been enabled for &f%player%&a!"
   nightvision-disabled-other: "&cNightvision has been disabled for &f%player%&c!"
+
+  # Help Section
   help:
     header: "&8====== &#62b5eaNightVision Help &8======"
-    nightvision: "&b/nightvision &8- &7Toggle nightvision for yourself"
-    nightvision-player: "&b/nightvision <player> &8- &7Toggle nightvision for another player"
-    admin-reload: "&b/nightvisionadmin reload &8- &7Reload the plugin configuration"
+    nightvision: "&b/nightvision &8- &7Toggle nightvision for yourself &8(&bnightvision.use&8)"
+    nightvision-player: "&b/nightvision <player> &8- &7Toggle nightvision for another player &8(&bnightvision.use.other&8)"
+    admin-reload: "&b/nightvisionadmin reload &8- &7Reload the plugin configuration &8(&bnightvision.admin&8)"
     footer: "&8=========================="
 ```
