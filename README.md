@@ -5,7 +5,8 @@ A simple night vision plugin for Paper servers.
 
 **Last Version:** 1.21.9-3.5.1
 **Author:** sinnaz3153
-**API Version:** 1.21
+**API Version:** 1.21.9
+**Supported Servers:** Paper
 **Java:** 21+
 
 ## What is sNightVision
