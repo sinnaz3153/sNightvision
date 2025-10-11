@@ -84,7 +84,7 @@ public final class Nightvision extends JavaPlugin {
 
     private void loadConfig() {
         prefix = getConfig().getString("prefix", "&c*MISSING-PREFIX* >>&f ");
-        duration = getConfig().getInt("effect.duration", 300);
+        duration = getConfig().getInt("effect.duration", -1);
         if (duration > 0) {
             duration = duration * 20;
         } else {

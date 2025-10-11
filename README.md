@@ -3,10 +3,10 @@
 
 A simple night vision plugin for Paper servers.
 
-**Last Version:** 1.21.9-3.5.1
+**Last Version:** 1.21.10-3.6.4
 **Author:** sinnaz3153
-**API Version:** 1.21.9
-**Supported Servers:** Paper
+**API Version:** 1.21.10
+**Supported Servers:** Paper; Purpur; Spigot
 **Java:** 21+
 
 ## What is sNightVision
@@ -20,7 +20,6 @@ This plugin allows players to toggle night vision effect for themselves and othe
 - Admin reload functionality
 - Tab completion support
 - Automatic config backup
-- Config version management
 
 ## Commands
 - `/nv` - Toggle night vision for yourself
@@ -30,7 +29,7 @@ This plugin allows players to toggle night vision effect for themselves and othe
 - `/nvadmin help` - Show admin help menu
 
 ## Permissions
-- `nightvision.use` - Use night vision command (default: Everyone)
+- `nightvision.use` - Use night vision command (default: true)
 - `nightvision.use.other` - Toggle night vision for others (default: op)
 - `nightvision.admin` - Access admin commands (default: op)
 
