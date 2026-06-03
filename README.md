@@ -3,9 +3,9 @@
 
 A simple night vision plugin for Paper servers.
 
-**Last Version:** 1.21.10-3.6.4
+**Last Version:** 26.1.2-3.7
 **Author:** sinnaz3153
-**API Version:** 1.21.10
+**API Version:** 26.1.2
 **Supported Servers:** Paper; Purpur; Spigot
 **Java:** 21+
 

@@ -24,7 +24,7 @@ public class ConfigManager {
         } else {
             // Load existing config to check version
             config = YamlConfiguration.loadConfiguration(configFile);
-            String version = config.getString("config-version", "1.0");
+            String version = config.getString("config-version", "1.4.1");
 
             if (!version.equals(currentVersion)) {
                 backupAndUpdateConfig();
