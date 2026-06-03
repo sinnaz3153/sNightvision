@@ -1,6 +1,8 @@
 package org.sinnaz3153.nightvision;
 
 import net.md_5.bungee.api.ChatColor;
+import org.bstats.bukkit.Metrics;
+//import org.bstats.charts.SimplePie;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -23,6 +25,15 @@ public final class Nightvision extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        // bStats thing
+        int pluginId = 31782;
+        Metrics metrics = new Metrics(this, pluginId);
+
+//        // Optional: Add custom charts
+//        metrics.addCustomChart(
+//                new SimplePie("chart_id", () -> "My value")
+//        );
+        // Actually stuff
         saveDefaultConfig();
         reloadConfig();
 
