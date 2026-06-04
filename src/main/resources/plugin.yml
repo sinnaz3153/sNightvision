@@ -2,7 +2,7 @@
 name: sNightVision
 version: '${project.version}'
 main: org.sinnaz3153.nightvision.Nightvision
-api-version: '26.1.2'
+api-version: '1.21.11'
 author: "sinnaz3153"
 description: "§bA simple plugin to toggle nightvision effect"
 website: 'https://github.com/sinnaz3153/sNightvision'
