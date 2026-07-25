@@ -33,7 +33,7 @@ public class CommandHandler implements CommandExecutor {
 
         if (args.length == 0) {
             Player player = (Player) sender;
-            if (!player.hasPermission("nightvision.use")) {
+            if (!player.hasPermission("snightvision.use")) {
                 player.sendMessage(plugin.format(plugin.getConfig().getString("messages.no-permission")));
                 return true;
             }
@@ -46,13 +46,12 @@ public class CommandHandler implements CommandExecutor {
             return true;
         }
 
-        if (!sender.hasPermission("nightvision.use.other")) {
-            sender.sendMessage(plugin.format(plugin.getConfig().getString("messages.no-permission")));
-            return true;
-        }
-
         Player target = Bukkit.getPlayer(args[0]);
-        if (target == null) {
+        if (target == null && args.length == 1) {
+            if (!sender.hasPermission("nightvision.use.other")) {
+                sender.sendMessage(plugin.format(plugin.getConfig().getString("messages.no-permission")));
+                return true;
+            }
             sender.sendMessage(plugin.format(plugin.getConfig().getString("messages.player-not-found")));
             return true;
         }

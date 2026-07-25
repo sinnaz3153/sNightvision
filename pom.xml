@@ -6,7 +6,7 @@
 
     <groupId>org.sinnaz3153</groupId>
     <artifactId>sNightvision</artifactId>
-    <version>26.1.2-3.7</version>
+    <version>26.2-3.8</version>
     <packaging>jar</packaging>
 
     <name>sNightvision</name>
@@ -73,7 +73,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>26.1.2.build.29-alpha</version>
+            <version>26.2.build.29-alpha</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
