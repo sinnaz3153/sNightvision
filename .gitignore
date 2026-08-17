@@ -1,2 +1,5 @@
 /.idea/
-/target/
+/.gradle/
+/build/
+/run/
+/commit.md
